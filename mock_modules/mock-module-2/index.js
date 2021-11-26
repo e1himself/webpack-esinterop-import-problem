@@ -1,7 +1,5 @@
-var hello = require('mock-module-1');
+import hello from 'mock-module-1';
 
-function sayHello() {
+export function sayHello() {
     hello();
 }
-
-module.exports = { sayHello };
