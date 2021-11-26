@@ -8,8 +8,6 @@
     "webpack-cli": "^4.9.1"
   },
   "scripts": {
-    "postinstall": "npm run inject_mock_modules",
-    "inject_mock_modules": "rm -rf node_modules/mock-module-* && cp -rf mock_modules/* node_modules/",
     "build": "webpack"
   }
 }
