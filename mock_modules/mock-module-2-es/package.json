@@ -1,0 +1,5 @@
+{
+  "name": "mock-module-2-es",
+  "main": "./index.js",
+  "type": "module"
+}

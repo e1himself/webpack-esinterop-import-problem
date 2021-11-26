@@ -1,9 +1,3 @@
-import calculateLayout from '@prezly/slate-editor/build/esm/modules/editor-v4-galleries/components/GalleryElement/Gallery/lib/calculateLayout.mjs';
+import { sayHello } from 'mock-module-2-es';
 
-console.log(calculateLayout({
-    idealHeight: 500,
-    viewportWidth: 800,
-    images: [
-        { aspectRatio: 1 }
-    ],
-}));
+sayHello();
