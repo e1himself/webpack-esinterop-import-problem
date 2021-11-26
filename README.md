@@ -1,3 +1,7 @@
+# [RESOLVED]
+
+**See https://github.com/webpack/webpack/issues/14836#issuecomment-979654419**
+
 ### Steps to reproduce
 
 1. Checkout
@@ -11,7 +15,11 @@
 
 ### Expected behavior
 
-It outputs "hello" to the console.
+~It outputs "hello" to the console.~
+
+**This behavior is not a bug, but is fully aligned with how ECMAScript Modules are handled natively by Node.**
+
+**See https://github.com/webpack/webpack/issues/14836#issuecomment-979654419**
 
 ### Actual behavior
 
