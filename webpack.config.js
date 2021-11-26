@@ -9,9 +9,10 @@ module.exports = {
     },
     resolve: {
         modules: [
+            'mock_modules',
             'node_modules',
         ],
-        extensions: ['.js', '.mjs', '.jsx', '.ts', '.tsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
     module: {
         rules: [

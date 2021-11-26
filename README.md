@@ -2,8 +2,8 @@
 
 1. Checkout
   ```
-  git clone https://github.com/e1himself/webpack-harmony-import-problem
-  cd webpack-harmony-import-problem
+  git clone https://github.com/e1himself/webpack-esinterop-import-problem
+  cd webpack-esinterop-import-problem
   ```
 2. `npm ci`
 3. `npm run build`
@@ -19,10 +19,10 @@ It fails with the following error:
 
 ```
 Uncaught TypeError: mock_module_1__WEBPACK_IMPORTED_MODULE_0__ is not a function
-    sayHello webpack:///./node_modules/mock-module-2-es/index.js?:9
+    sayHello webpack:///./node_modules/mock-module-2/index.js?:9
     <anonymous> webpack:///./src/index.js?:4
-    js file:///home/ivan/workspace/sandbox/webpack-import-bug/build/main.js:19
-    __webpack_require__ file:///home/ivan/workspace/sandbox/webpack-import-bug/build/main.js:63
-    <anonymous> file:///home/ivan/workspace/sandbox/webpack-import-bug/build/main.js:103
-    <anonymous> file:///home/ivan/workspace/sandbox/webpack-import-bug/build/main.js:105
+    js file:///home/ivan/workspace/sandbox/webpack-esinterop-import-problem/build/main.js:19
+    __webpack_require__ file:///home/ivan/workspace/sandbox/webpack-esinterop-import-problem/build/main.js:63
+    <anonymous> file:///home/ivan/workspace/sandbox/webpack-esinterop-import-problem/build/main.js:103
+    <anonymous> file:///home/ivan/workspace/sandbox/webpack-esinterop-import-problem/build/main.js:105
 ```
